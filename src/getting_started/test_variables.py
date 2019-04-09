@@ -27,10 +27,10 @@ def test_variables():
     """Test variables"""
 
     integer_variable = 5
-    string_variable = 'Johnnt1'
+    string_variable = 'Johnnt1!'
 
     assert integer_variable == 5
-    assert string_variable == 'Johnnt1'
+    assert string_variable == 'Johnnt1!'
 
     variable_with_changed_type = 4  # x is of type int
     variable_with_changed_type = 'Sallyy'  # x is now of type str
