@@ -33,6 +33,6 @@ def test_variables():
     assert string_variable == 'Johnnt'
 
     variable_with_changed_type = 4  # x is of type int
-    variable_with_changed_type = 'Sally'  # x is now of type str
+    variable_with_changed_type = 'Sallyy'  # x is now of type str
 
-    assert variable_with_changed_type == 'Sally'
+    assert variable_with_changed_type == 'Sallyy'
