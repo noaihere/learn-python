@@ -26,10 +26,10 @@ Rules for Python variables:
 def test_variables():
     """Test variables"""
 
-    integer_variable = 5
+    integer_variable = 500
     string_variable = 'Johnnt1!'
 
-    assert integer_variable == 5
+    assert integer_variable == 500
     assert string_variable == 'Johnnt1!'
 
     variable_with_changed_type = 4  # x is of type int
