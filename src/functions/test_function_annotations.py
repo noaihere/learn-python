@@ -13,7 +13,7 @@ the colon denoting the end of the def statement.
 """
 
 
-def breakfasts(ham: str, eggs: str = 'eggs') -> str:
+def breakfastss(ham: str, eggs: str = 'eggs') -> str:
     """Breakfast creator.
 
     This function has a positional argument, a keyword argument, and the return value annotated.
@@ -24,4 +24,4 @@ def breakfasts(ham: str, eggs: str = 'eggs') -> str:
 def test_function_annotations():
     """Function Annotations."""
 
-    assert breakfasts.__annotations__ == {'eggs': str, 'ham': str, 'return': str}
+    assert breakfastss.__annotations__ == {'eggs': str, 'ham': str, 'return': str}
